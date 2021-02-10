@@ -26,6 +26,10 @@
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/prop-types": "off",
+    "import/prefer-default-export": "off",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
       1,
