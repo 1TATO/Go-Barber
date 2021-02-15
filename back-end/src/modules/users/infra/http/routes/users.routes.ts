@@ -1,9 +1,9 @@
 import { Router } from 'express';
 import multer from 'multer';
-import uploadConfig from '../config/upload';
+import uploadConfig from '@config/upload';
 
-import CreateUserService from '../services/CreateUserService';
-import UpdateUserAvatarService from '../services/UpdateUserAvatarService';
+import CreateUserService from '@modules/users/services/CreateUserService';
+import UpdateUserAvatarService from '@modules/users/services/UpdateUserAvatarService';
 
 import ensureAuthenticade from '../middlewares/ensureAuthenticated';
 
@@ -21,7 +21,6 @@ usersRouter.post('/', async (request, response) => {
     password,
   });
 
-  // @ts-expect-error typescript version 4.0 breaking changes rules
   delete user.password;
 
   return response.json(user);
@@ -39,7 +38,6 @@ usersRouter.patch(
       avatarFilename: request.file.filename,
     });
 
-    // @ts-expect-error typescript version 4.0 breaking changes rules
     delete user.password;
 
     return response.json(user);
