@@ -26,6 +26,8 @@
         "ts": "never"
       }
     ],
+    "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "always"}],
+    "@typescript-eslint/interface-name-prefix": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "camelcase": "off",
