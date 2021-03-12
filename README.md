@@ -92,7 +92,7 @@ Schedule and manage appointments in barber shops.
 - [Yup](https://github.com/jquense/yup)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
-- [EditoConfig](https://editorconfig.org)
+- [EditorConfig](https://editorconfig.org)
 
 Back-end
 - [Express](https://expressjs.com/pt-br/)
