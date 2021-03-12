@@ -24,12 +24,16 @@
 </p>
 
 <p align="center">
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-Project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#label-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-How-To-Use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
+
+<div>
+  
+</div>
 
 ## :computer: Project
 Schedule and manage appointments in barber shops.
@@ -41,6 +45,9 @@ Schedule and manage appointments in barber shops.
 - [Node](https://nodejs.org/en/)
 - [Unform](https://github.com/unform/unform)
 - [Yup](https://github.com/jquense/yup)
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
+- [EditoConfig](https://editorconfig.org)
 
 Back-end
 - [Express](https://expressjs.com/pt-br/)
@@ -66,29 +73,76 @@ Mobile
 - [React-native-testing-library](https://github.com/callstack/react-native-testing-library)
 
 ## :label: Layout
-- [Web]() layout
-- [Mobile]() layout
+- [Web](https://www.figma.com/file/GiuDTxBfPwgUyGmYSAQd4D/GoBarber?node-id=34%3A1180) layout
+- [Mobile](https://www.figma.com/file/GiuDTxBfPwgUyGmYSAQd4D/GoBarber?node-id=0%3A1) layout
 
 ## :information_source: How To Use
-To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer.
+To clone and run this application, you'll need:
+- [Git](https://git-scm.com)
+- [Docker](https://www.docker.com)
+- [Android Studio](https://developer.android.com/studio)
 
 From your command line:
 
-### MOVE.IT
+### Database & Back-end
 ```bash
 # Clone this repository
-$ git clone https://github.com/1TATO/move.it.git
+$ git clone https://github.com/1TATO/Go-Barber.git
 
 # Go into the repository
-$ cd move.it
+$ cd Go-Barber
+$ cd back-end
+
+# Install dependencies
+$ yarn install
+
+# Set up you environmnet variables based on the examples of $.env.example
+
+# Start database
+$ docker start gostack_postgres
+$ docker start mongodb
+$ docker start redis
+
+# Start server
+$ yarn dev:server
+
+# server running on port 3333
+```
+
+### Front-end
+```bash
+# Clone this repository
+$ git clone https://github.com/1TATO/Go-Barber.git
+
+# Go into the repository
+$ cd Go-Barber
+$ cd front-end
 
 # Install dependencies
 $ yarn install
 
 # Start server
-$ yarn dev
+$ yarn start
 
 # server running on port 3000
+```
+
+### Mobile
+```bash
+# Clone this repository
+$ git clone https://github.com/1TATO/Go-Barber.git
+
+# Run Android Studio
+
+# Go into the repository
+$ cd Go-Barber
+$ cd mobile
+
+# Install dependencies
+$ yarn install
+
+# Start server
+$ yarn android
 ```
 
 ## :memo: License
