@@ -31,9 +31,54 @@
   <a href="#memo-license">License</a>
 </p>
 
-<div>
+</br>
+
+<h3 align="center">
+  <div>
+    <p>Homepage</p>
+    <img alt="GoBarber" title="GoBarber" src="https://github.com/1TATO/Go-Barber/blob/master/github/homepage.png" width="700px" />
+  </div>
   
-</div>
+  </br>
+  </br>
+  
+  <div>
+    <p>Create Account Page</p>
+    <img alt="CreateAccountPage" title="CreateAccountPage" src="https://github.com/1TATO/Go-Barber/blob/master/github/createAccountPage.png" width="700px" />
+  </div>
+  
+  </br>
+  </br>
+  
+  <div>
+    <p>Forgot Password Page</p>
+    <img alt="ForgotPasswordPage" title="ForgotPasswordPage" src="https://github.com/1TATO/Go-Barber/blob/master/github/forgotPasswordPage.png" width="700px" />
+  </div>
+  
+  </br>
+  </br>
+  
+  <div>
+    <p>Calendar Without Appointments</p>
+    <img alt="CalendarWithoutAppointments" title="CalendarWithoutAppointments"  src="https://github.com/1TATO/Go-Barber/blob/master/github/calendarWithoutAppointments.png" width="700px" />
+  </div>
+  
+  </br>
+  </br>
+  
+  <div>
+    <p>Calendar With Appointments</p>
+    <img alt="CalendarWithAppointments" title="CalendarWithAppointments" src="https://github.com/1TATO/Go-Barber/blob/master/github/calendarWithAppointments.png" width="700px" />
+  </div>
+  
+  </br>
+  </br>
+  
+  <div>
+    <p>Edit Profile Page</p>
+    <img alt="EditProfilePage" title="EditProfilePage" src="https://github.com/1TATO/Go-Barber/blob/master/github/editProfile.png" width="700px" />
+  </div>
+</h3>
 
 ## :computer: Project
 Schedule and manage appointments in barber shops.
